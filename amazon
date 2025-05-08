@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>monimatch – Achadinhos com propósito</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      background: #fafafa;
+      color: #333;
+    }
+    header {
+      background: #ffffff;
+      padding: 2em 1em;
+      text-align: center;
+      border-bottom: 1px solid #eee;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8em;
+      font-weight: 600;
+      color: #111;
+    }
+    header p {
+      font-size: 1em;
+      color: #777;
+      margin-top: 0.3em;
+    }
+    main {
+      max-width: 800px;
+      margin: auto;
+      padding: 2em 1em;
+    }
+    .produto {
+      background: #fff;
+      margin-bottom: 2em;
+      padding: 1.5em;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    .produto img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .produto h2 {
+      margin-top: 1em;
+      font-size: 1.2em;
+    }
+    .produto p {
+      color: #555;
+      font-size: 0.95em;
+    }
+    .botao {
+      display: inline-block;
+      margin-top: 1em;
+      padding: 0.8em 1.2em;
+      background: #ff9900;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2em 1em;
+      font-size: 0.85em;
+      color: #999;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>monimatch</h1>
+    <p>Achadinhos testados, aprovados e com entrega rápida</p>
+  </header>
+
+  <main>
+
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/71MSv7e8U5L._AC_SX679_.jpg" alt="Camisa Tommy Hilfiger">
+      <h2>Camisa social Tommy Hilfiger masculina Oxford</h2>
+      <p>Clássica, elegante e durável. Ideal para quem busca qualidade sem abrir mão de estilo.</p>
+      <a class="botao" href="https://www.amazon.com.br/dp/B011A8GQ60?tag=monimatch-20" target="_blank">Ver na Amazon</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/71zCqMPQ2UL._AC_SL1500_.jpg" alt="Organizador de Gavetas">
+      <h2>Organizador de gavetas extensível (Plasvale)</h2>
+      <p>Perfeito para manter tudo no lugar em banheiros, cozinhas ou closets.</p>
+      <a class="botao" href="https://www.amazon.com.br/dp/B0B1BCFG48?tag=monimatch-20" target="_blank">Ver na Amazon</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/61nIGmX3UnL._AC_SL1500_.jpg" alt="Escova Alisadora">
+      <h2>Escova Secadora Mondial 4 em 1</h2>
+      <p>Seca, alisa, modela e dá brilho. Praticidade para quem tem pouco tempo e quer resultado de salão.</p>
+      <a class="botao" href="https://www.amazon.com.br/dp/B07ZMVVV43?tag=monimatch-20" target="_blank">Ver na Amazon</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/71AhUvo6z1L._AC_SL1500_.jpg" alt="Aspirador Vertical">
+      <h2>Aspirador de Pó Vertical Electrolux PowerSpeed</h2>
+      <p>Alta potência com design slim. Ideal para quem busca praticidade sem abrir mão da eficiência.</p>
+      <a class="botao" href="https://www.amazon.com.br/dp/B099K7MWL2?tag=monimatch-20" target="_blank">Ver na Amazon</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/71G9xbgZg3L._AC_SL1500_.jpg" alt="Aspirador Robô">
+      <h2>Aspirador Robô WAP Robot W100</h2>
+      <p>Varre, aspira e passa pano. Tecnologia inteligente e autonomia ideal para rotina moderna.</p>
+      <a class="botao" href="https://www.amazon.com.br/dp/B08MQM8WQ5?tag=monimatch-20" target="_blank">Ver na Amazon</a>
+    </div>
+
+    <div class="produto">
+      <img src="https://m.media-amazon.com/images/I/71KUPUvP0TL._AC_SL1500_.jpg" alt="Lenços Umedecidos">
+      <h2>Lenços Umedecidos Veja Multiuso</h2>
+      <p>Limpeza rápida e eficaz para bancadas, móveis, pias e mais. Ideal para o dia a dia corrido.</p>
+      <a class="botao" href="https://www.amazon.com.br/dp/B09WRJFKYY?tag=monimatch-20" target="_blank">Ver na Amazon</a>
+    </div>
+
+  </main>
+
+  <footer>
+    Este site utiliza links afiliados da Amazon. Ao comprar por eles, você apoia meu trabalho sem pagar nada a mais.
+  </footer>
+
+</body>
+</html>
